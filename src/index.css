@@ -37,6 +37,40 @@ h1 {
   line-height: 1.1;
 }
 
+.App {
+  width: 1200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.card {
+  background-color: #1a1a1a;
+  border-radius: 10px;
+  width: 500px;
+}
+
+.card2 {
+  background-color: #1a1a1a;
+  border-radius: 10px;
+  width: 500px;
+}
+
+.design {
+  background-color: #1a1a1a;
+  border-radius: 10px;
+  width: 300px;
+  color: white;
+}
+
+.textoDesign {
+  color: white;
+}
+.textoDesign:hover {
+  color: seagreen;
+  cursor: pointer;
+}
+
 button {
   border-radius: 8px;
   border: 1px solid transparent;
